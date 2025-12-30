@@ -1,18 +1,17 @@
-# --- Core Framework ---
-streamlit>=1.25.0
+# Análisis de Datos y Química
+rdkit==2024.3.3
+pandas==2.2.2
+numpy<2.0.0
+scikit-learn==1.5.0
+scipy==1.13.0
+xgboost==2.0.3
 
-# --- Chemistry & Bioinformatics ---
-# Nota: rdkit-pypi es la versión recomendada para entornos pip
-rdkit-pypi>=2022.9.5
+# Visualización
+streamlit==1.35.0
+plotly==5.22.0
+matplotlib==3.8.4
+seaborn==0.13.2
 
-# --- Data Science & ML ---
-pandas>=1.5.0
-numpy>=1.23.0
-scikit-learn>=1.0.0
-scipy>=1.9.0
-xgboost>=1.6.0
-
-# --- Visualization ---
-plotly>=5.10.0
-matplotlib>=3.5.0
-seaborn>=0.12.0
+# Utilidades
+requests==2.32.3
+typing_extensions==4.11.0
