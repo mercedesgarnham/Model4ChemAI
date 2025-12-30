@@ -1,17 +1,10 @@
-# Análisis de Datos y Química
-rdkit==2024.3.3
-pandas==2.2.2
+streamlit>=1.35.0
+rdkit>=2023.9.1
+pandas>=2.0.0
 numpy<2.0.0
-scikit-learn==1.5.0
-scipy==1.13.0
-xgboost==2.0.3
-
-# Visualización
-streamlit==1.35.0
-plotly==5.22.0
-matplotlib==3.8.4
-seaborn==0.13.2
-
-# Utilidades
-requests==2.32.3
-typing_extensions==4.11.0
+scikit-learn>=1.3.0
+scipy>=1.10.0
+xgboost>=2.0.0
+plotly>=5.15.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
